@@ -1,0 +1,60 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build output (if any future builds)
+dist/
+build/
+.out/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.*.local
+!.env.example
+
+# Playwright artifacts
+playwright-report/
+blob-report/
+trace.zip
+*.trace.zip
+*.webm
+*.mp4
+screenshots/
+report.html
+
+# Test results & caches
+test-results/
+playwright/.cache/
+.jest-cache/
+.jest-test-sequencer/
+
+# Coverage
+coverage/
+*.lcov
+
+# Lock files (optional uncomment one if enforcing a single lock type)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Temporary
+.tmp/
+.temp/
+*.swp
+*.swo
+~$*
+
+# OS
+ehthumbs.db
+Icon?
+

@@ -1,0 +1,21 @@
+{
+	"name": "playwright-ui-tests",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Playwright UI test framework for IntegratedTM login flow",
+	"scripts": {
+		"test": "playwright test",
+		"test:headed": "playwright test --headed",
+		"test:ui": "playwright test --ui",
+		"codegen": "playwright codegen",
+		"trace:open": "playwright show-trace",
+		"login:check": "ts-node scripts/login-check.ts"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.47.2",
+		"dotenv": "^16.4.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.0",
+		"@types/node": "^20.11.30"
+	}
+}
